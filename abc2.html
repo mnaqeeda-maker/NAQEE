@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Secret For You 🥹❤️</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- SECRET START -->
+    <section id="start" class="screen">
+
+        <div class="sparkle">✦</div>
+
+        <h1>A Little Secret for uu gudiyaa😌...</h1>
+
+        <p>Something special is waiting for u sammyaaaa🥹💋</p>
+
+        <div class="heart-button" onclick="showGift()">
+            ❤️
+        </div>
+
+        <small>tap the heart bachaa🤭</small>
+
+    </section>
+
+
+    <!-- GIFT -->
+    <section id="giftScreen" class="screen hidden">
+
+        <h1>finallyyy You Found It darlingggg😌🎁</h1>
+
+        <p>There is something inside...</p>
+
+        <div class="gift" onclick="openGift()">
+
+            <div class="gift-lid"></div>
+
+            <div class="gift-box">
+                <div class="ribbon-vertical"></div>
+            </div>
+
+            <div class="bow">
+                <span></span>
+                <span></span>
+                <b></b>
+            </div>
+
+        </div>
+
+        <p class="hint">gift per click kroo jiiii😤</p>
+
+    </section>
+
+
+    <!-- BIRTHDAY MESSAGE -->
+    <section id="message" class="screen hidden">
+
+        <div class="big-heart">💗</div>
+
+        <h1>Happy Birthday myyy🥹🤍🌍</h1>
+
+        <p class="message-text">
+            A little surprise for someone special meri jaaaannnn😭💋
+            <br><br>
+            I hope this brings a smile to your face
+            and makes your day a little more beautiful.❤️
+            kaafi mhnt lagi hai isme it is myy first time but but it"ll works 
+            shuruwat aapse hoo toh kaafi maza hai aage!!😁😜 
+            Happy Birthday to someone who means more to me than I can ever put into words. 💕💏 Tum meri life ka woh beautiful part ho jiske liye main genuinely thankful hoon Pata nahi tumhe realize hai ya nahi but your presence matters to me a lot. 🥹❤️
+
+I just want you to always stay happy, keep smiling, and never feel alone, because somewhere, someone will always care about you a little more than you know. 🫶🏻 And honestly… tumhari smile dekh ke mera dil aaj bhi thoda zyada hi khush ho jaata hai. 🙈🎀
+
+May this year bring you all the happiness, love and beautiful moments you deserve. Happy Birthday, my favourite person. ❤️‍🩹🥹
+<br>
+"Tumse mili har khushi ko dil mein sambhal ke rakha hai,  
+Tumhare liye har dua mein ek khaas jagah rakha hai.  
+Door ho ya paas, farq bas itna sa hai,  
+Dil ne aaj bhi tumhe sabse khaas rakha hai"...💗🥹
+        </p>
+
+        <button onclick="showOptions()">Open More 💌</button>
+
+    </section>
+
+
+    <!-- OPTIONS -->
+    <section id="options" class="screen hidden">
+
+        <h1>Choose Oneee babyy😉</h1>
+
+        <p class="subtitle">There are little surprises hidden inside...</p>
+
+        <div class="round-options">
+
+            <button class="round-card" onclick="openPage('memory')">
+                <span>📖</span>
+                <small>OurMemories🤫🎀</small>
+            </button>
+
+            <button class="round-card" onclick="openPage('smile')">
+                <span>🌸</span>
+                <small>LittleReminderbbyy😌💗</small>
+            </button>
+
+            <button class="round-card" onclick="openPage('birthday')">
+                <span>🎂</span>
+                <small>Birthday per ek pyri si wish aapke liye firse😭💋</small>
+            </button>
+
+            <button class="round-card" onclick="openPage('final')">
+                <span>🌙</span>
+                <small>FinalNote Apkeliye MujheBolna zruriHai🥹🤍</small>
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- MEMORIES -->
+    <section id="memory" class="content-page hidden">
+
+        <button class="back" onclick="goBack()">← Back</button>
+
+        <h2>📖 Our Little Memories</h2>
+
+        <p>
+            Pata hi nahi chala kab itni saari chhoti chhoti
+            memories ban gayi. ❤️
+            <br><br>
+            Kuch moments simple the, kuch funny,
+            aur kuch aise jo bina kisi reason ke
+            smile de dete hain.
+            <br><br>
+            Shayad isi liye memories special hoti hain —
+            kyunki unke saath feelings bhi judi hoti hain.😌
+            pata hi nhi chla kab 3 years complt hogye our kab itna karib hogye humm shyd naseeb me hi aise juda hai jo hme spl feel kraye bbyy aapke is din me mai mai bht zyda khush hoon ke aap bane hi mere liye ho mai aapke bina ek pal bhi nhi reh sktii bbyyyy plz kbhi mat chodna mujheee aapke psth aur paas hi rkhna mai adhuri hoon aapke binaaa jaanemann😭💋
+        </p>
+
+        <!-- PHOTO FRAME -->
+        <div class="photo-frame">
+
+            <div class="photo-inner">
+                <img src="memory.jpg" alt="Our Memory">
+            </div>
+
+            <span class="photo-caption">
+                a little memory ❤️
+            </span>
+
+        </div>
+
+    </section>
+
+
+    <!-- REMINDER -->
+    <section id="smile" class="content-page hidden">
+
+        <button class="back" onclick="goBack()">← Back</button>
+
+        <div class="page-icon">🌸</div>
+
+        <h2>A Little Reminder</h2>
+
+        <p>
+            Whenever you feel low remember that
+            you are capable of beautiful things.
+            <br><br>
+            Keep smiling, keep believing in yourself
+            and never forget your worth. ❤️
+            <br><br>
+         One Little Reminder💌
+
+Kabhi mujhe chhodna mat… 🥹❤️  
+Main shayad har baar bata nahi paati ki tum mere liye kitne important ho, but deep down, I really don’t want to imagine my life without you in it. Tum mere liye sirf ek person nahi ho, tum meri bohot saari beautiful memories aur feelings ka ek important part ho. 🫶🏻
+
+Kal agar sab kuch perfect na ho, agar kabhi hum lad padein, misunderstandings ho jaayein, ya waqt humare against ho… toh bas ek cheez karna mujhse baat karna, mujhse door mat jaana.
+Main perfect nahi hoon, but my feelings for you are real for you sammyaaaa😭❤️‍🩹
+
+Mujhe promises ki lambi list nahi chahiye… bas itna chahiye ki jab life difficult ho, tab bhi hum ek dusre ko choose karein. 🥺❤️
+<br>
+"Waqt badle, log badlein,  
+chahe duniya badal jaaye…  
+Bas tum mat badalna,  
+aur kabhi mujhe chhod kar mat jaana.  
+Kyuki tumhe khona,  
+meri sabse badi fear hogi.” 🫶🏻🥹
+        </p>
+
+    </section>
+
+
+    <!-- BIRTHDAY -->
+    <section id="birthday" class="content-page hidden">
+
+        <button class="back" onclick="goBack()">← Back</button>
+
+        <div class="page-icon">🎂</div>
+
+        <h2>Your Special Day</h2>
+
+        <p>
+            Happy Birthday! 🎉
+            <br><br>
+            May this year bring you happiness,
+            success, peace and lots of beautiful moments.
+            <br><br>
+            Keep shining always. ✨
+
+            <img src="C:\Users\HP\OneDrive\Pictures" alt="My favorite memory" class="img.jpg">
+        </p>
+
+    </section>
+
+
+    <!-- FINAL -->
+    <section id="final" class="content-page hidden">
+
+        <button class="back" onclick="goBack()">← Back</button>
+
+        <div class="page-icon">🌙</div>
+
+        <h2>One Last Thing...</h2>
+
+        <p>
+            This little surprise may be simple
+            but every little detail was made to
+            bring a smile to your face🫀
+            <br><br>
+            Keep this little memory with you bby mai aapke liye itni perfect person toh nhi hoon per mai koshis krungi ke apke liye perfect banne kii
+            <br>
+            "AAP HO TOH MERI DUNIYAAN HASEEN HAI🥹"
+            ek baat hmesha yaad rkhna ke tumhri naqeeda ko ko kbhi mat akeli chodna wo aapke bina nhi reh sktii aur aap ho toh uski zindagi khubsurt hai aur haa agr wo kbhi glti ki toh Use
+            samjha lena aur batadena mgr khwb adhure mat chodo hum(DO) milke hmri duniya banayege aur jab bhi aap low feel kiye toh batadena mai aapke sath hamesha hoon aapko kbhi nhi chodunggiii bbyy aur haa aapko 
+            koyi kuch bhi kahe usko bhi nhi chodungi😁🥊mgr aapki naqii toh aapke paas hai naa aap mujhe samjho mai aapko aur ky hi chhiye is duniya mee😭🎀
+
+        </p>
+
+        <div class="final-heart">❤️</div>
+
+    </section>
+
+</div>
+
+
+<script src="script2.js"></script>
+
+</body>
+</html>
